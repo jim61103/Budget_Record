@@ -26,7 +26,7 @@ namespace Budget_Record
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+                 
             string FilePath = path + "\\"+Config;
             string res = getConfig(FilePath);
             if (res != "")
